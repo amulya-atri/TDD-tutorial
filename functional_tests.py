@@ -28,7 +28,6 @@ class NewVisitorTest(unittest.TestCase):
 
         inputbox = self.browser.find_element(By.ID, "id_new_item")
         # self.assertEqual(inputbox.get_attribute("placeholder"), "Enter a to-do item")
-        inputbox.send_keys("Use peacock feathers to make a fly")
         inputbox.send_keys("Buy peacock feathers")
         # When she hits enter, the page updates, and now the page lists
         # "1: Buy peacock feathers" as an item in a to-do list table
